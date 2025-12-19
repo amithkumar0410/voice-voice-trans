@@ -4,6 +4,8 @@
   it will take voice as input
   it will translated and return in your own voice
   it supported 11 languages
+
+  
 #langauge supported
   ["Assamese","Bengali","Gujarati","Hindi","Kannada","Malayalam","Marathi","Odia","Punjabi","Tamil","Telugu"]
   
@@ -19,7 +21,11 @@
     
 #how will it works
 --->takes voice as input
+
 ---->converted it to text (indic ASR from ai4bharath)(https://libraries.io/pypi/indic-asr-onnx)
+
 ----->translates that text to required langauge(anuvada a variant of indic trans)(https://pypi.org/project/anuvaad-rev/0.1.2/)
+
 ------>clone the transalted text to your voice(indicF5 from ai4bharath)(https://huggingface.co/spaces/ai4bharat/IndicF5)
+
 #Thank you for visiting 
